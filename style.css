@@ -5,7 +5,7 @@
 .resizeimage img { width: 100%; }
 /*head*/
 .body { width: 1200px; margin-left: 70px; font-family: "hiragino kaku gothicvpro","serif"; font-size: 18px; }
-.header { width: 1200px; height: 220px; margin-top: 0px; margin-left: 70px; margin-right: 70px; border: solid 10px gray; background-image: url(pic/kmdpic.jpg); background-size: contain; }
+.header { width: 1200px; height: 220px; margin-top: 0px; margin-left: 70px; margin-right: 70px; border: solid 10px gray; background-image: url(kmdpic.jpg); background-size: contain; }
 .header h1 { text-align: center; background-color: gray; opacity: 0.7; width: 300px; font-size: 28px; color: white; margin: 15px 20px; padding: 15px; border: solid 2px gray; border-radius: 30px;}
 .header h2 { background-color: gray; opacity: 0.7; width: 600px; border: solid 2px gray; color: white; font-size: 16px; margin-top: 30px; margin-left: 350px; }
 /*main*/
@@ -23,10 +23,10 @@ article { display: flex;}
 .box { width: 600px; height: 500px;} 
 .a1 { font-size: 14px; list-style: none; padding: 10px 50px; } 
 .a1 ul li { padding-left: 30px;}
-.book { width: 250px; height: 180px; background-image: url(pic/book.png); background-size: cover; }
+.book { width: 250px; height: 180px; background-image: url(book.png); background-size: cover; }
 .a2 { font-size: 14px; padding: 10px 50px; }
 .h4 { font-size: 16px; }
-.map { width: 381px; height: 298px; margin-left: 50px; background-image: url(pic/kmdmap.png); background-size: auto; padding-top: 3/5*100%; }
+.map { width: 381px; height: 298px; margin-left: 50px; background-image: url(kmdmap.png); background-size: auto; padding-top: 3/5*100%; }
 /*guide*/
 .container { width: 1200px; height: auto; font-size: 16px; margin: 10px 70px 50px 70px; padding: 30px;  background-color:rgb(110, 200, 200) ;}
 .container p {font-size: 14px; padding-left: 30px;}
