@@ -1,56 +1,58 @@
 @charset"=UTF-8";
 * { margin: 0; padding: 0;}
-.resizeimage { max-width: 1200px; /* 最大幅 */
-  min-width: 500px; /* 最小幅 */}
-.resizeimage img { width: 100%; }
-/*head*/
-.body { width: 1200px; margin-left: 70px; font-family: "hiragino kaku gothicvpro","serif"; font-size: 18px; }
-.header { width: 1200px; height: 220px; margin-top: 0px; margin-left: 70px; margin-right: 70px; border: solid 10px gray; background-image: url(./kmdpic.JPG); background-size: contain; }
-.header h1 { text-align: center; background-color: gray; opacity: 0.7; width: 300px; font-size: 28px; color: white; margin: 15px 20px; padding: 15px; border: solid 2px gray; border-radius: 30px;}
-.header h2 { background-color: gray; opacity: 0.7; width: 600px; border: solid 2px gray; color: white; font-size: 16px; margin-top: 30px; margin-left: 350px; }
-/*main*/
-article { display: flex;}
-.side { display: flex; flex-direction: column; width: 150px; height: 200px; justify-content: space-between; text-align: center; margin: 20px 70px; padding: 10px; border: solid 2px; font-size: 14px ; }
-.side1 { padding: 3px; font-size: 16px; }
-.content { width: 1000px; height: 50px; font: 14px; text-align: left; padding: 25px 25px;}
-.content h3 { font-size: 18px; margin-top: 10px;  padding-top: 10px;}
+
+/*head index*/
+.body { width: 70%; margin-left: 15%; font-family: "hiragino kaku gothicvpro","serif"; font-size: 18px; }
+.headerin { width: 70%; height: auto; margin-top: 20px; margin-left: 15%; background-color: black; }
+.headerin h1 { text-align: center; font-size: 28px; color: white; margin: 5px 20px; }
+.contentin { width: 70%; height: auto; margin-top: 20px; margin-left: 15%; margin-bottom: 20px; font: 14px; text-align: left; padding: 25px 25px; background-color: aqua;}
+.contentin h3 { font-size: 18px; }
+
 /*update*/
-.open { display: flex; width: 600px; height: auto; font-size: 16px; margin-left: 370px; padding: 20px; background-color: rgb(110, 200, 200);}
+.open { width: 70%; height: auto; margin-left: 15%; font-size: 16px; padding: 20px; background-color: rgb(110, 200, 200);}
 .open ul li { text-indent: 2em;}
 .sp { font-size: 18px; }
-/*infomation*/
-.lead { width: 1200px; height: 500px; margin-left: 70px; display: flex; flex-direction: row; border-spacing: 50px; }
-.box { width: 600px; height: 500px;} 
-.a1 { font-size: 14px; list-style: none; padding: 10px 50px; } 
-.a1 ul li { padding-left: 30px;}
-.book { width: 250px; height: 180px; background-image: url(./book.png); background-size: cover; }
-.a2 { font-size: 14px; padding: 10px 50px; }
-.h4 { font-size: 16px; }
-.map { width: 381px; height: 298px; margin-left: 50px; background-image: url(./kmdmap.png); background-size: auto; padding-top: 3/5*100%; }
-/*guide*/
-.container { width: 1200px; height: auto; font-size: 16px; margin: 10px 70px 50px 70px; padding: 30px;  background-color:rgb(110, 200, 200) ;}
-.container p {font-size: 14px; padding-left: 30px;}
-.container a { font-size: 18px; margin-left: 10px; }
-/*kmdchr-mess*/
-.message { width: 800px; height: auto; margin-top: 50px; margin-left: 300px; padding: 30px ; background-color: azure;}
-.message h1 { font-size: 18px; text-align: center;}
-#line1 { color: red;}
-#line2 { color: red;}
-.message p { text-indent: 1em; padding: 1pm;}
-.message a { display: block; width: 200px; font-size: 16px;}
-.doc { padding-left: 300px;}
-.doc li a { width: 1000px; height: auto; }
-/*kmdchr-stor*/
-.stor { width: 800px; height: auto; margin-top: 50px; margin-left: 300px; padding: 30px ; background-color: azure;}
-.stor h1 { font-size: 18px; text-align: center;}
-.stor p { text-indent: 1em; padding: 1em; }
-.stor a { width: 250px; height: 50px; font-size: 16px; margin-left: 1em; padding-left: 0px;}
-.bible { width: 500px; height: auto; padding-left: 300px;}
-.bible a { width: 500px; height: auto; margin-left: 0px; padding-left: 0px;}
-/*footer*/
-.footer{ width: 1200px; height: 30px; margin-left: 70px; padding: 10px; background-color: skyblue;}
-.copy{margin-left: auto; color:rgb(80, 15, 190);}
 
+/*infomation index*/
+.container { width: 70%; height: auto; margin-top: 20px; margin-left: 15%; display: flex; flex-direction: row; border-spacing: 20px;}
+.box1 { width: 580px; height: auto; font-size: 14px; margin-left: -10px; padding: 20px; background-color: aqua;} 
+.box2 { width: 580px; height: auto; font-size: 14px; margin-left: 20px; padding: 20px; background-color: aqua;}
+.h4 { font-size: 16px; }
+.resizeimage  img { width: 100%; }
+
+/*link*/
+.rela { width: 70%; height: auto; margin-left: 14%; margin-top: 0; padding: 20px; font-size: 16px ; display: grid; grid-template-columns: 50% 50%; grid-template-rows: 50% 50%; gap: 20px 20px; grid-template-areas: "areaaa areaab" "areaaa areaac"; }
+.relaaa { grid-column-start: 1; grid-column-end: 2; grid-row-start: 1; grid-row-end: 3; grid-area: areaaa; padding: 10px; background-color: aqua;}
+.relaab { grid-column-start: 2; grid-column-end: 3; grid-row-start: 1; grid-row-end: 2; grid-area: areaab; padding: 10px; background-color: aqua;}
+.relaac { grid-column-start: 2; grid-column-end: 3; grid-row-start: 2; grid-row-end: 3; grid-area: areaac; padding: 10px; background-color: aqua; }
+.re { width: 300px; background-color: brown; border: solid 2px; border-radius: 10px;}
+
+/*guide*/
+.guide { width: 70%; height: auto; font-size: 16px; margin-top: 10px; margin-left: 15%; padding: 30px;  background-color:rgb(110, 200, 200) ; }
+.guide p { font-size: 14px; padding-left: 30px;}
+.guide a { font-size: 18px; margin-left: 10px; }
+.place { width: 100px; background-color: brown; border: solid 2px; border-radius: 10px;}
+
+/*kmdchr-mess*/
+.message { width: 70%; height: auto; margin-top: 20px; margin-left: 15%; padding: 30px ; background-color: aqua; }
+.message h1 { font-size: 18px; text-align: center; }
+.line { color: red; }
+.message p { text-indent: 1em; padding: 1pm; }
+.message a { display: block; width: 200px; font-size: 16px; }
+.doc { width: 500px; height: auto; margin-left: 100px; }
+.doc li a { width: 500px; height: auto; margin-left: 50px; }
+
+/*kmdchr-stor*/
+.stor { width: 70%; height: auto; margin-top: 20px; margin-left: 15%; padding: 30px ; background-color: aqua; }
+.stor h1 { font-size: 18px; text-align: center; }
+.stor p { text-indent: 1em; padding: 1em; }
+.stor a { width: 250px; height: 50px; font-size: 16px; margin-left: 1em; padding-left: 0px; }
+.bible { width: 500px; height: auto; margin-left: 100px; }
+.bible a { width: 500px; height: auto; margin-left: 50px; }
+
+/*footer*/
+.footer { width: 70%; height: auto; margin-left: 15%; margin-top:20px; margin-bottom: 20px; padding: 20px; background-color: aqua; }
+.copy { margin-left: auto; color:rgb(80, 15, 190); }
 /*  */
 @page { margin: 10mm; size: 210mm 297mm; /*  */}
 @media print { /*  */ body { -webkit-print-color-adjust: exact; /*  */ width: 1190px; /*  */zoom: 0.8; /*  */ }}
