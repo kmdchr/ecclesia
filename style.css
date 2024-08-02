@@ -2,56 +2,56 @@
 * { margin: 0; padding: 0;}
 
 /*head index*/
-.body { width: 70%; margin-left: 15%; font-family: "hiragino kaku gothicvpro","serif"; font-size: 18px; }
-.headerin { width: 70%; height: auto; margin-top: 20px; margin-left: 15%; background-color: black; }
+.body { width: 60%; margin-left: 0; font-family: "hiragino kaku gothicvpro","serif"; font-size: 18px; }
+.headerin { width: 60%; height: auto; margin-top: 20px; margin-left: 0; background-color: black; }
 .headerin h1 { text-align: center; font-size: 28px; color: white; margin: 5px 20px; }
-.contentin { width: 70%; height: auto; margin-top: 20px; margin-left: 15%; margin-bottom: 20px; font: 14px; text-align: left; padding: 25px 25px; background-color: aqua;}
+.contentin { width: 60%; height: auto; margin-top: 20px; margin-left: 0; margin-bottom: 20px; font: 14px; text-align: left; padding: 25px 25px; background-color: aqua;}
 .contentin h3 { font-size: 18px; }
 
 /*update*/
-.open { width: 70%; height: auto; margin-left: 15%; font-size: 16px; padding: 20px; background-color: rgb(110, 200, 200);}
+.open { width: 60%; height: auto; margin-left: 0; font-size: 16px; padding: 20px; background-color: rgb(110, 200, 200);}
 .open ul li { text-indent: 2em;}
 .sp { font-size: 18px; }
 
 /*infomation index*/
-.container { width: 70%; height: auto; margin-top: 20px; margin-left: 15%; display: flex; flex-direction: row; border-spacing: 20px;}
-.box1 { width: 580px; height: auto; font-size: 14px; margin-left: -10px; padding: 20px; background-color: aqua;} 
-.box2 { width: 580px; height: auto; font-size: 14px; margin-left: 20px; padding: 20px; background-color: aqua;}
+.container { width: 60%; height: auto; margin-top: 20px; margin-left: 0; display: flex; flex-direction: row; }
+.box1 { width: 60%; height: auto; font-size: 14px; margin-left: 0; padding: 20px; background-color: aqua;} 
+.box2 { width: 60%; height: auto; font-size: 14px; margin-left: 0; padding: 20px; background-color: aqua;}
 .h4 { font-size: 16px; }
 .resizeimage  img { width: 100%; }
 
 /*link*/
-.rela { width: 70%; height: auto; margin-left: 14%; margin-top: 0; padding: 20px; font-size: 16px ; display: grid; grid-template-columns: 50% 50%; grid-template-rows: 50% 50%; gap: 20px 20px; grid-template-areas: "areaaa areaab" "areaaa areaac"; }
+.rela { width: 60%; height: auto; margin-left: 0; margin-top: 0; padding: 20px; font-size: 16px ; display: grid; grid-template-columns: 50% 50%; grid-template-rows: 50% 50%; gap: 20px 20px; grid-template-areas: "areaaa areaab" "areaaa areaac"; }
 .relaaa { grid-column-start: 1; grid-column-end: 2; grid-row-start: 1; grid-row-end: 3; grid-area: areaaa; padding: 10px; background-color: aqua;}
 .relaab { grid-column-start: 2; grid-column-end: 3; grid-row-start: 1; grid-row-end: 2; grid-area: areaab; padding: 10px; background-color: aqua;}
 .relaac { grid-column-start: 2; grid-column-end: 3; grid-row-start: 2; grid-row-end: 3; grid-area: areaac; padding: 10px; background-color: aqua; }
-.re { width: 300px; background-color: brown; border: solid 2px; border-radius: 10px;}
+.re { width: auto; background-color: brown; border: solid 2px; border-radius: 10px;}
 
 /*guide*/
-.guide { width: 70%; height: auto; font-size: 16px; margin-top: 10px; margin-left: 15%; padding: 30px;  background-color:rgb(110, 200, 200) ; }
-.guide p { font-size: 14px; padding-left: 30px;}
-.guide a { font-size: 18px; margin-left: 10px; }
+.guide { width: 60%; height: auto; font-size: 16px; margin-top: 10px; margin-left: 0; padding: 20px;  background-color:rgb(110, 200, 200) ; }
+.guide p { font-size: 14px; padding-left: 20px;}
+.guide a { font-size: 18px; margin-left: 0; }
 .place { width: 100px; background-color: brown; border: solid 2px; border-radius: 10px;}
 
 /*kmdchr-mess*/
-.message { width: 70%; height: auto; margin-top: 20px; margin-left: 15%; padding: 30px ; background-color: aqua; }
+.message { width: 60%; height: auto; margin-top: 20px; margin-left: 0; padding: 30px ; background-color: aqua; }
 .message h1 { font-size: 18px; text-align: center; }
 .line { color: red; }
 .message p { text-indent: 1em; padding: 1pm; }
 .message a { display: block; width: 200px; font-size: 16px; }
-.doc { width: 500px; height: auto; margin-left: 100px; }
-.doc li a { width: 500px; height: auto; margin-left: 50px; }
+.doc { width: 500px; height: auto; margin-left: 0; }
+.doc li a { width: 500px; height: auto; margin-left: 0; }
 
 /*kmdchr-stor*/
-.stor { width: 70%; height: auto; margin-top: 20px; margin-left: 15%; padding: 30px ; background-color: aqua; }
+.stor { width: 60%; height: auto; margin-top: 20px; margin-left: 0; padding: 30px ; background-color: aqua; }
 .stor h1 { font-size: 18px; text-align: center; }
 .stor p { text-indent: 1em; padding: 1em; }
-.stor a { width: 250px; height: 50px; font-size: 16px; margin-left: 1em; padding-left: 0px; }
-.bible { width: 500px; height: auto; margin-left: 100px; }
-.bible a { width: 500px; height: auto; margin-left: 50px; }
+.stor a { width: 250px; height: 50px; font-size: 16px; margin-left: 0; padding-left: 0px; }
+.bible { width: 500px; height: auto; margin-left: 0; }
+.bible a { width: 500px; height: auto; margin-left: 0; }
 
 /*footer*/
-.footer { width: 70%; height: auto; margin-left: 15%; margin-top:20px; margin-bottom: 20px; padding: 20px; background-color: aqua; }
+.footer { width: 60%; height: auto; margin-left: 0; margin-top:20px; margin-bottom: 20px; padding: 20px; background-color: aqua; }
 .copy { margin-left: auto; color:rgb(80, 15, 190); }
 /*  */
 @page { margin: 10mm; size: 210mm 297mm; /*  */}
