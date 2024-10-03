@@ -1,0 +1,76 @@
+@charset"utf-8"  
+
+@media screen and (max-width: 768px ){
+  .h3 { font-size: 0.8rem; }
+  .p { font-size: 0.8rem; }
+  .sp { font-size: 0.8rem; }
+  .doc { font-size: 0.8rem; }
+  .re  { font-size: 0.8rem; }
+  .resizeimage { width: 50%; height: auto;}
+  .info {font-size: 0.8rem; }
+} 
+ 
+
+/* head index */
+.body { width: 100%; font-family: "hiragino kaku gothicvpro","serif"; font-size: 18px; }
+.h1{ width: 100%; text-align: center; margin-top: 10px; padding: 10px; background-color: black;}
+
+/*update*/
+.service { margin-bottom: 10px; display: flex; flex-direction: row; gap: 20px; position: relative; width: 100%; height: auto; background-color: aqua;}
+.service::after {content: ""; position: absolute; top: -100%; left: 0; background-color: var(--primary); 
+  width: 100%; height: 100%; opacity: 0;
+  transition: all 0.35s ease; z-index: -1;}
+.survice:hover::after{ opacity: 1; top: 0;}
+
+.open { width: 50%; height: auto; margin-left: 10px; font-size: 18px; padding: 20px; border: solid 2px;
+   background-color: rgb(110, 200, 200);}
+.open ul li { text-indent: 2em;}
+.sp { font-size: 24px; }
+#messp { font-size: 18px;}
+.info { width: 50%; margin-right: 10px; padding: 20px; font-size: 24px; border: solid 2px; background-color: rgb(110, 200, 200);;}
+.place { width: 50%; background-color: brown; border: solid 2px; border-radius: 10px;}
+
+/*infomation index*/
+.container { width: 100%; height: auto; margin-top: 20px; border-spacing: 20px;}
+.row { height: auto; font-size: 18px; margin-top: 10px; padding-left: 10px; display: flex; justify-content: space-between; gap: 20px; background-color: aqua;}
+.col { height: auto; font-size: 18px; padding: 30px; background-color: rgb(110, 200, 200);} 
+.col-lg-4{ width: auto;  height: auto; padding: 30px; background-color: rgb(110, 200, 200);}
+.h3 { font-size: 24px; }
+.resizeimage img { width: 100%; height: auto; background-size: cover; }
+
+/*link*/
+.rela { width: auto; height: auto; margin-top: 20px; font-size: 24px ; display: grid; grid-template-columns: 50% 50%; grid-template-rows: 50% 50%; gap: 20px 20px; grid-template-areas: "areaaa areaab" "areaaa areaac"; }
+.relaaa { grid-column-start: 1; grid-column-end: 2; grid-row-start: 1; grid-row-end: 3; grid-area: areaaa; padding: 10px; background-color: aqua;}
+.relaab { grid-column-start: 2; grid-column-end: 3; grid-row-start: 1; grid-row-end: 2; grid-area: areaab; padding: 10px; background-color: aqua;}
+.relaac { grid-column-start: 2; grid-column-end: 3; grid-row-start: 2; grid-row-end: 3; grid-area: areaac; padding: 10px; background-color: aqua; }
+.re { width: auto; font-size: 16px; background-color: brown; border: solid 2px; border-radius: 10px;}
+
+/*guide*/
+.container-md { width: 100%; height: auto; font-size: 18px; margin-top: 20px; padding: 30px;  background-color:rgb(110, 200, 200) ; }
+.container-md p { font-size: 18px; padding-left: 30px;}
+
+/*kmdchr-mess*/
+.message { width: 100%; height: auto; margin-top: 20px; padding: 30px ; background-color: aqua; }
+.message h1 { font-size: 24px; text-align: center; }
+#line1 { color: red; }
+#line2 { color: red; }
+.message p { font-size: 18px; text-indent: 1em; padding: 1pm; }
+.message a { display: block; width: 200px; font-size: 18px; }
+.doc { width: 250px; height: auto; margin-left: 10px; }
+.doc li a { width: 250px; height: auto; font-size: 16px; margin-left: 10px; }
+.doc1 { font-size: 16px; padding-left: 0; }
+
+/*kmdchr-stor*/
+.stor { width: 100%; height: auto; margin-top: 20px; padding: 30px ; background-color: aqua; }
+.stor h1 { font-size: 24px; text-align: center; }
+.stor p { font-size: 18px; text-indent: 1em; padding: 1em; }
+.stor a { width: 250px; height: 50px; font-size: 18px; margin-left: 1em; padding-left: 0px; }
+.bible { width: 500px; height: auto; margin-left: 10px; }
+.bible a { width: 500px; height: auto; margin-left: 10px; }
+
+/*footer*/
+.footer { width: 100%; height: 50px; margin: 10px 0 20px 0; padding: 20px; background-color: skyblue; }
+.copy { margin-left: auto; padding: auto; color:rgb(80, 15, 190); }
+/*  */
+@page { margin: 10mm; size: 210mm 297mm; }
+@media print { body { -webkit-print-color-adjust: exact; width: 1190px; zoom: 0.8; }}
