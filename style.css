@@ -34,8 +34,8 @@
 /*infomation index*/
 .container { width: 100%; height: auto; margin-top: 20px; border-spacing: 20px;}
 .row { height: auto; font-size: 18px; margin-top: 10px; display: flex; justify-content: space-between; gap: 20px; background-color: aqua;}
-.col { height: auto; font-size: 18px; padding: 30px; background-color: rgb(110, 200, 200);} 
-.col-lg-4{ width: 100%;  height: auto; padding: 30px; background-color: rgb(110, 200, 200);}
+.col { height: auto; font-size: 18px; padding: 20px; background-color: rgb(110, 200, 200);} 
+.col-lg-4{ width: 100%;  height: auto; padding: 20px; background-color: rgb(110, 200, 200);}
 .h3 { font-size: 18px; }
 .resizeimage img { width: 50%; height: auto; background-size: cover; }
 
@@ -50,21 +50,21 @@
 .container-md p { font-size: 18px; padding-left: 30px;}
 
 /*kmdchr-mess*/
-.message { width: 100%; height: auto; margin-top: 20px; padding: 10px ; }
+.message { width: 100%; height: auto; margin-top: 20px; padding: 0; }
 .message h1 { font-size: 18px; text-align: center; }
 #line1 { color: red; }
 #line2 { color: red; }
-.message p { font-size: 18px; text-indent: 1em; padding: 1pm; }
+.message p { font-size: 18px; padding: 0; }
 .message a { display: block; width: 200px; font-size: 18px; }
 .doc { width: 250px; height: auto; margin-left: 10px; }
 .doc li a { width: 250px; height: auto; font-size: 16px; margin-left: 10px; }
 .doc1 { font-size: 16px; padding-left: 0; }
 
 /*kmdchr-stor*/
-.stor { width: 100%; height: auto; margin-top: 20px; padding: 10px ; background-color: aqua; }
+.stor { width: 100%; height: auto; margin-top: 20px; padding: 10px; background-color: aqua; }
 .stor h1 { font-size: 18px; text-align: center; }
-.stor p { font-size: 18px; text-indent: 1em; padding: 1em; }
-.stor a { width: 250px; height: 50px; font-size: 18px; margin-left: 1em; padding-left: 0px; }
+.stor p { font-size: 18px; text-indent: 1em; padding: 10px; }
+.stor a { width: 250px; height: 50px; font-size: 18px; margin-left: 0; padding-left: 10px; }
 .bible { width: 500px; height: auto; margin-left: 10px; }
 .bible a { width: 500px; height: auto; margin-left: 10px; }
 
