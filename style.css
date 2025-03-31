@@ -24,13 +24,17 @@
   transition: all 0.35s ease; z-index: -1;}
 .survice:hover::after{ opacity: 1; top: 0;}
 
-.open { width: 100%; height: auto; margin: 0px 20px 20px; font-size: 18px; padding: 20px; border: solid 2px;
+.open { width: 100%; height: auto; margin: 0px 20px 10px; font-size: 18px; padding: 20px; border: solid 2px;
    background-color: rgb(110, 200, 200);}
 .open ul li { text-indent: 2em;}
 .sp { font-size: 18px; }
+.toku{ font-style: red;}
 .sp:hover { color: white; transition-duration: 0.3s; transition-timing-function: ease; transition-delay: 0.1s; }
 #messp { font-size: 18px;}
 .info { width: 100%; margin: 20px 20px 20px 0px; padding: 20px; font-size: 18px; border: solid 2px; background-color: rgb(110, 200, 200);;}
+
+.column { width: 100%; height: auto; margin-top: -10px;  font-size: 18px; padding: 20px;border: solid 2px;
+  background-color: rgb(110, 200, 200);}
 
 /*infomation index*/
 .container { width: 100%; height: auto; margin-top: 20px; border-spacing: 20px;}
