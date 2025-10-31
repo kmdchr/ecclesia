@@ -69,12 +69,11 @@
 .doc1:hover { color: white; transition-duration: 0.3s; transition-timing-function: ease; transition-delay: 0.1s;}
 
 /*kmdchr-stor*/
-.stor { width: 100%; height: auto; margin-top: 20px; padding: 10px; background-color: aqua; }
+.stor { width: 100%; height: auto; margin-top: 20px; padding: 10px;}
 .stor h1 { font-size: 18px; text-align: center; }
-.stor p { font-size: 18px; text-indent: 1em; padding: 10px; }
-.stor a { width: 250px; height: 50px; font-size: 18px; margin-left: 0; padding-left: 10px; }
+.stor p { font-size: 18px; padding: 0px; }
+.stor a { display: block; width: 200px; font-size: 18px; }
 .bible { width: 500px; height: auto; margin-left: 10px; }
-.bible a { width: 500px; height: auto; margin-left: 10px; }
 
 /*footer*/
 .footer { width: 100%; height: 50px; margin: 10px 0 20px 0; padding: 20px; background-color: skyblue; }
