@@ -67,6 +67,12 @@
 .doc li a { width: 250px; height: auto; font-size: 16px; margin-left: 10px; }
 .doc1 { font-size: 16px; padding-left: 0; }
 .doc1:hover { color: white; transition-duration: 0.3s; transition-timing-function: ease; transition-delay: 0.1s;}
+.d2024 { font-size: 16px; padding-left: 0; }
+.d2024:hover { color: white; transition-duration: 0.3s; transition-timing-function: ease; transition-delay: 0.1s;}
+.d2025 { font-size: 16px; padding-left: 0; }
+.d2025:hover { color: white; transition-duration: 0.3s; transition-timing-function: ease; transition-delay: 0.1s;}
+.d2026 { font-size: 16px; padding-left: 0; }
+.d2026:hover { color: white; transition-duration: 0.3s; transition-timing-function: ease; transition-delay: 0.1s;}
 
 /*kmdchr-stor*/
 .stor { width: 100%; height: auto; margin-top: 20px; padding: 10px;}
